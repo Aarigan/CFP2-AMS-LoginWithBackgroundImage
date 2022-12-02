@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url("../images/aimee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 15px;
+}
+
+.top h1 {
+  color: #5d2c12;
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 30px 0;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field .input {
+  height: 45px;
+  width: 100%;
+  letter-spacing: 1.5px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: #5d2c12;
+  padding: 0 0 0 42px;
+  background: rgba(93, 44, 18, 0.1);
+}
+
+.input-field .input:hover {
+  border: 1px solid #5d2c12;
+  box-shadow: 1px 5px 7px 1px rgba(93, 44, 18, 0.2);
+  transition: all 0.2s ease;
+}
+
+.input-field i {
+  position: relative;
+  top: -31px;
+  left: 17px;
+  color: #5d2c12;
+}
+
+::-webkit-input-placeholder {
+  color: #5d2c12;
+}
+
+.input-field .submit {
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: bisque;
+  height: 45px;
+  outline: none;
+  width: 100%;
+  background: rgba(93, 44, 18, 0.7);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.input-field .submit:hover {
+  background: rgba(58, 28, 11, 0.7); 
+  box-shadow: 1px 5px 7px 1px rgba(93, 44, 18, 0.3);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+  color: #5d2c12;
+  margin-top: 10px;
+}
+
+.bottom .left {
+  display: flex;
+}
+
+.bottom .left .sign-check {
+  accent-color: #5d2c12 ;
+}
+
+.bottom label a {
+  color: #5d2c12;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bottom .right a:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
