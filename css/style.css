@@ -24,18 +24,19 @@ body {
 }
 
 .container {
-  width: 350px;
+  
   display: flex;
   flex-direction: column;
+  width: 350px;
   padding: 0 15px 0 15px;
 }
 
 .top h1 {
+  display: flex;
+  justify-content: center;
   color: #5d2c12;
   font-size: 30px;
   font-weight: 500;
-  display: flex;
-  justify-content: center;
   padding: 10px 0 30px 0;
 }
 
@@ -74,6 +75,8 @@ body {
 }
 
 .input-field .submit {
+  height: 45px;
+  width: 100%;
   border: none;
   border-radius: 30px;
   font-size: 15px;
@@ -81,12 +84,10 @@ body {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: bisque;
-  height: 45px;
   outline: none;
-  width: 100%;
   background: rgba(93, 44, 18, 0.7);
-  cursor: pointer;
   transition: .3s;
+  cursor: pointer;
 }
 
 .input-field .submit:hover {
